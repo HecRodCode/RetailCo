@@ -50,4 +50,4 @@ CREATE TABLE FACTS_SALES (
 );
 
 -- INDEX
-CREATE INDEX idx_ventas_fecha ON fact_ventas(id_date);
+CREATE INDEX idx_ventas_fecha ON FACTS_SALES(id_date);
